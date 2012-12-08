@@ -1,0 +1,38 @@
+/* #body
+================================================== */
+body {background-color: ##EEE;}
+
+/* #navbar
+================================================== */
+.navbar .nav {float: right;}
+
+/* #posts
+================================================== */
+.posts a:hover {color:#007eff; text-decoration: none;}
+.posts p a, p a:visited { line-height: inherit; }
+.posts-date {color:#666; font-size:.75em; padding-left:10px;}
+
+/* #post
+================================================== */
+.post {color:#666}	
+.post .snippet a, .nav a, .post p a, .snippet a:visited, .nav a:visited, .post p a:visited {color:#EEEEEE}	
+.snippet a {text-decoration:underline}
+.post em {color:#5ACBF3; font-size: 13px;}	
+.post {margin: 30px 0 30px 0}
+
+/* #Lists
+================================================== */
+ul, ol { margin-bottom: 20px; }
+ul { list-style: none outside; }
+ol { list-style: decimal; }
+ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style: disc outside; }
+ul ul, ul ol,
+ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+ul ul li, ul ol li,
+ol ol li, ol ul li { margin-bottom: 6px; }
+li { line-height: 18px; margin-bottom: 12px; }
+ul.large li { line-height: 21px; }
+li p { line-height: 21px; }

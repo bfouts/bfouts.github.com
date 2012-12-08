@@ -3,14 +3,19 @@ layout: default
 description: 
 ---
 
+<div>
+
 <div id="posts" style="margin-top:20px">
-    {% for post in site.posts %}
-			<div class="row post">
-							{{date}}<h2><a href="{{post.url}}">{{post.title}}</a></h2>
-							{{ post.content | strip_html | truncatewords: 30 }} <span class="snippet"><a href="{{post.url}}">Read more</a></span>
-							<br><em>Published <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time></em>
-			</div>
-    {% endfor %}
+<h2 class="sub-heading" id="posts">Rambling on and on....</h2>
+<ul class="posts">
+  {% for post in site.posts %}
+  <li>
+    <h3>
+      <a class="posts" href="{{ post.url }}">{{ post.title }}</a>
+      <span class="posts-date">{{ post.date | date_to_string }}</span>
+    </h3>
+  </li>
+  {% endfor %}
+</ul>
 </div>
-
-
+</div>

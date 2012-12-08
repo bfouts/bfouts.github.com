@@ -1,0 +1,8 @@
+---
+layout: post
+title: repl
+description: if life had a repl
+tags: [repl]
+---
+
+repl

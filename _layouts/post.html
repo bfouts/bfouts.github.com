@@ -3,6 +3,7 @@ layout: default
 ---
 <div class="post">
 	<h2>{{page.title}}</h2>
+        <h4>{{page.description}}</h4>
 	{% if page.date %}<div class="postdate"><em>Posted on {{ page.date | date_to_string }}{% if page.last_updated %}, last updated on {{ page.last_updated | date_to_string }}{% endif %}</em></div>{% endif %}
 	<br>
 	{{ content }}
