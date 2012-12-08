@@ -6,6 +6,13 @@ body {background-color: ##EEE;}
 ================================================== */
 .navbar .nav {float: right;}
 
+/* #contact
+================================================== */
+.contact {overflow: hidden;  *zoom: 1;  font-size: 1.22222em;  line-height: 1.22727em;  padding-top: 0.75em;  padding-bottom: 0.75em;}
+.contact ul {margin: 0;  padding: 0;  list-style: none;} 
+.contact ul li {float: right;}
+.contact ul li a, .contact ul li span {margin-right: .5em; text-decoration: none;}
+
 /* #posts
 ================================================== */
 .posts a:hover {color:#007eff; text-decoration: none;}
@@ -22,17 +29,15 @@ body {background-color: ##EEE;}
 
 /* #Lists
 ================================================== */
-ul, ol { margin-bottom: 20px; }
-ul { list-style: none outside; }
-ol { list-style: decimal; }
-ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
-ul.square { list-style: square outside; }
-ul.circle { list-style: circle outside; }
-ul.disc { list-style: disc outside; }
-ul ul, ul ol,
-ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
-ul ul li, ul ol li,
-ol ol li, ol ul li { margin-bottom: 6px; }
-li { line-height: 18px; margin-bottom: 12px; }
-ul.large li { line-height: 21px; }
-li p { line-height: 21px; }
+.posts ul, ol { margin-bottom: 20px; list-style: none;}
+.posts ul { list-style: none outside; }
+.posts ol { list-style: decimal; }
+.posts ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+.posts ul.square { list-style: square outside; }
+.posts ul.circle { list-style: circle outside; }
+.posts ul.disc { list-style: disc outside; }
+.posts ul ul, ul ol, ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+.posts ul ul li, ul ol li, ol ol li, ol ul li { margin-bottom: 6px; }
+.posts li { line-height: 18px; margin-bottom: 12px; }
+.posts ul.large li { line-height: 21px; }
+.posts li p { line-height: 21px; }
