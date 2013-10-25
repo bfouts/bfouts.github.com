@@ -12,8 +12,14 @@ description:
     <h3>
       <a class="posts" href="{{ post.url }}">{{ post.title }}</a>
       <span class="posts-date">{{ post.date | date_to_string }}</span>
+      {% if post.content contains '<!--more-->' %}
+          {{ post.content | split:'<!--more-->' | first }}
+      {% else %}
+         {{ post.content }}
+      {% endif %}
     </h3>
   </li>
+    <hr/>
   {% endfor %}
 </ul>
 </div>
